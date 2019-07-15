@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Persona;
+  src: url("../fonts/persona/Persona.ttf");
+}
+
+
+body {
+	text-transform: uppercase !important;
+	/*font-family: Persona !important;*/
+	font-weight: bold;
+}
+
+h1.animated.fadeInDown.delay-07s {
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.link {
+	color: black !important;
+}
+
+.link:active {
+	color: black !important;
+}
+
+.link:selected {
+	color: black !important;
+}
+
+a.link.animated.fadeInUp.delay-1s.servicelink {
+	background-color: grey;
+}
